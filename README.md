@@ -88,10 +88,20 @@ function capitalize(str) {
    // Directly return the joined string
    return splitStr.join(' '); 
 }
-
 document.write(capitalize("Hi From Skillsanta"));
 </script>
 </head>
 <body>
 </body>
 </html>
+        
+        
+        
+Q6        
+<script>
+function truncate(str, no_words) {
+    return str.split(" ").splice(0,no_words).join(" ");
+}
+console.log(truncate('The quick brown fox jumps over the lazy dog', 4));
+</script>
+
