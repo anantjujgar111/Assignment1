@@ -72,7 +72,7 @@ rightTriangle(5);
 
 
 
-
+Q5
 <!DOCTYPE html>
 <html>
 <title>Web Page Design</title>
