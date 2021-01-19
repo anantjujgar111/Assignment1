@@ -12,7 +12,6 @@
     
     
     #Q2
-    <!DOCTYPE html>
 <html>
 <body>
 <script>
