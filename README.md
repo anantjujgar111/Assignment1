@@ -45,3 +45,26 @@ rightTriangle(5);
 </script>
 </body>
 </html>
+
+
+
+
+
+
+
+#Q4
+<html>
+<body>
+<script type="text/javascript">
+   newEmail = function (email) {
+      var split = email.split("@");
+      var split1 = split[0];
+      var avg = split1.length / 2;
+      split1 = split1.substring(0, (split1.length - avg));
+      split2 = split[1];
+      return split1 + "...@" + split2;
+   };
+   document.write(newEmail("@gmail.com"));
+</script>
+</body>
+</html>
